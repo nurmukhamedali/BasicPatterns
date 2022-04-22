@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>proxy.labaratory</OriginalElement>
+  <nodes>
+    <node x="40.39880952380949" y="299.0">proxy.labaratory.CachedDatabase</node>
+    <node x="476.10714285714295" y="0.0">proxy.labaratory.Image</node>
+    <node x="402.7738095238096" y="276.0">proxy.labaratory.ProxyImage</node>
+    <node x="346.8988095238096" y="104.0">proxy.labaratory.RealImage</node>
+    <node x="131.71428571428567" y="516.0">proxy.labaratory.ProxyRun</node>
+    <node x="96.8988095238095" y="0.0">proxy.labaratory.Database</node>
+    <node x="444.2738095238096" y="448.0">proxy.labaratory.ProxyPatternDemo</node>
+    <node x="0.0" y="104.0">proxy.labaratory.RealDatabase</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="proxy.labaratory.CachedDatabase" target="proxy.labaratory.Database">
+      <point x="68.33333333333334" y="-83.5" />
+      <point x="211.23214285714283" y="274.0" />
+      <point x="226.09523809523807" y="274.0" />
+      <point x="226.09523809523807" y="79.0" />
+      <point x="199.39880952380952" y="79.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="proxy.labaratory.ProxyRun" target="proxy.labaratory.Database">
+      <point x="37.5" y="-38.0" />
+      <point x="244.21428571428567" y="491.0" />
+      <point x="255.8988095238095" y="491.0" />
+      <point x="255.8988095238095" y="79.0" />
+      <point x="267.73214285714283" y="79.0" />
+      <point x="68.33333333333331" y="27.0" />
+    </edge>
+    <edge source="proxy.labaratory.ProxyImage" target="proxy.labaratory.Image">
+      <point x="54.33333333333337" y="-61.0" />
+      <point x="538.6071428571429" y="251.0" />
+      <point x="556.7202380952382" y="251.0" />
+      <point x="556.7202380952382" y="79.0" />
+      <point x="537.1071428571429" y="79.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="proxy.labaratory.ProxyImage" target="proxy.labaratory.RealImage">
+      <point x="-54.33333333333337" y="-61.0" />
+      <point x="429.9404761904762" y="251.0" />
+      <point x="394.1488095238096" y="251.0" />
+      <point x="-47.25" y="61.0" />
+    </edge>
+    <edge source="proxy.labaratory.ProxyRun" target="proxy.labaratory.CachedDatabase">
+      <point x="-37.5" y="-38.0" />
+      <point x="169.21428571428567" y="491.0" />
+      <point x="142.8988095238095" y="491.0" />
+      <point x="0.0" y="83.5" />
+    </edge>
+    <edge source="proxy.labaratory.ProxyPatternDemo" target="proxy.labaratory.ProxyImage">
+      <point x="-44.0" y="-27.0" />
+      <point x="488.2738095238096" y="423.0" />
+      <point x="484.2738095238096" y="423.0" />
+      <point x="0.0" y="61.0" />
+    </edge>
+    <edge source="proxy.labaratory.ProxyPatternDemo" target="proxy.labaratory.Image">
+      <point x="44.0" y="-27.0" />
+      <point x="576.2738095238095" y="79.0" />
+      <point x="577.7738095238095" y="79.0" />
+      <point x="40.66666666666663" y="27.0" />
+    </edge>
+    <edge source="proxy.labaratory.RealDatabase" target="proxy.labaratory.Database">
+      <point x="0.0" y="-72.5" />
+      <point x="102.5" y="79.0" />
+      <point x="131.0654761904762" y="79.0" />
+      <point x="-68.33333333333331" y="27.0" />
+    </edge>
+    <edge source="proxy.labaratory.CachedDatabase" target="proxy.labaratory.RealDatabase">
+      <point x="-68.33333333333331" y="-83.5" />
+      <point x="74.56547619047618" y="274.0" />
+      <point x="51.25" y="274.0" />
+      <point x="-51.25" y="72.5" />
+    </edge>
+    <edge source="proxy.labaratory.RealImage" target="proxy.labaratory.Image">
+      <point x="0.0" y="-61.0" />
+      <point x="441.3988095238096" y="79.0" />
+      <point x="496.44047619047626" y="79.0" />
+      <point x="-40.666666666666686" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="166.5" y="190.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
